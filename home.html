@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <title>Andes Ultimate</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="./styling/navbar.css">
+        <link rel="stylesheet" href="./styling/general.css">
+    </head>
+    <body class="genBackGround">
+        <div class="navBar" id="navBar">
+            <a href=".home.html">Home</a>
+            <a href="#">TBD</a>
+            <a href="#">TBD</a>
+        </div>
+        <div class="genContent">
+            <div style="justify-content: center;position: absolute;left: 30%;top: 30%;">
+                <h1>Disponible próximamente...</h1>
+            </div>
+        </div>
+        <div style="position: fixed;top:450px;right:10px">
+            <div style="padding: 15px;background-color: black;font-size: 20px; border-radius: 5px;">
+                <a href="./blogin.php" style="text-decoration: none;color: #ffdf06;">Entrega de Busos 2020</a>
+            </div>
+        </div>
+    </body>
+    <script>
+        window.onscroll = function() {stickyBar()};
+        var navbar = document.getElementById("navbar");
+        var sticky = navbar.offsetTop;
+
+        function stickyBar() {
+        if (window.pageYOffset >= sticky) {
+            navbar.classList.add("sticky")
+        } else {
+            navbar.classList.remove("sticky");
+        }
+        }
+    </script>
+</html>
