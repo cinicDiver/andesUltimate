@@ -1,0 +1,34 @@
+.navBar{
+    overflow:hidden;
+    background-color: black;
+}
+
+.navBar a{
+    float: left;
+    display: block;
+    color: #ffdf06;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: sans-serif;
+}
+
+.navBar a:hover{
+    background-color: #ffdf06;
+    color: black;
+}
+
+.content {
+    padding: 16px;
+  }
+  
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  .sticky + .content {
+    padding-top: 60px;
+  }
