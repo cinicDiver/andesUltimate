@@ -1,0 +1,176 @@
+<html>
+    <head>
+        <title>Andes Ultimate</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1">   
+        <link rel="stylesheet" href="./styling/navbar.css">
+        <link rel="stylesheet" href="./styling/general.css">
+        <style>
+          body {
+            background: #ffe84f;
+            margin: 0;
+          }
+
+          a {
+              text-decoration: none;  
+          }
+          h1 {
+              text-align: center;
+              font-family: 'Lato', sans-serif;
+              font-size: 25px;
+              line-height: 32px;
+              padding-top: 70px;
+          }
+          h1 a {
+              color: black;
+          }
+          .price-table-wrapper {
+              font-family: 'Lato', sans-serif;
+              text-align: center;
+              margin-top: 30px;
+          }
+          .price-table-wrapper .featured-table {
+              box-shadow: 0px 0px 19px -3px rgba(0, 0, 0, 0.36);
+          }
+          .price-table-wrapper .pricing-table {
+              display: inline-block;
+              border: 1px solid black;
+              border-radius: 10px;
+              background: #ffdf06;
+              margin: 10px;
+              -webkit-transition: all 0.3s ease-in-out;
+              transition: all 0.3s ease-in-out;
+          }
+          .price-table-wrapper .pricing-table__header {
+              padding: 20px;
+              font-size: 20px;
+              color: #ffdf06;
+              background: black;
+          }
+          .price-table-wrapper .pricing-table__price {
+              color: black;
+              padding: 20px;
+              margin: auto;
+              font-size: 30px;
+              font-weight: 500;
+          }
+          .price-table-wrapper .pricing-table__list {
+              padding: 20px;
+              color: black;
+          }
+          .price-table-wrapper .pricing-table__list li {
+              padding: 15px;
+              border-bottom: 1px solid #C8C8C8;
+          }
+          .price-table-wrapper .pricing-table__list li:last-child {
+              border: none;
+          }
+          .price-table-wrapper .pricing-table:hover {
+              box-shadow: 0px 0px 19px -3px rgba(0, 0, 0, 0.36);
+          }
+          .ptTable{
+            position: relative;
+            margin-right: auto;
+            margin-left: auto;
+            font-family: 'Lato',sans-serif;
+            text-align: center;
+            background: #ffdf06;
+            border-radius: 15px;
+            border: 1px solid black;
+            font-size: 15px;
+          }
+
+          .ptTable th{
+            padding: 10px;
+            color: #ffdf06;
+            background: black;
+            border-radius: 10px;
+          }
+
+          .ptTable td{
+            padding: 15px;
+            border-bottom: 1px solid black;
+          }
+
+          .ptTable tr:hover{
+            background-color: #e4c700;
+          }
+        </style>
+    </head>
+    <body>
+        <div class="navBar" id="navBar">
+            <a href="./home.html">Home</a>
+            <a href="#">TBD</a>
+            <a href="#">TBD</a>
+        </div>
+        <div class="genContent">
+            <div class="price-table-wrapper">
+                <div class="pricing-table">
+                    <h2 class="pricing-table__header">Punto 1</h2>
+                    <h3 class="pricing-table__price">Sara García</h3>
+                    <div style="border-radius: 15px;">
+                      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.225135145812!2d-74.03594248554414!3d4.730914142712862!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f856163be03d5%3A0x5614fa727254e963!2sCl.%20152%20%239-80%2C%20Bogot%C3%A1!5e0!3m2!1ses!2sco!4v1600740353029!5m2!1ses!2sco" width="300" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                    </div>
+                    <ul class="pricing-table__list">
+                        <li>Contacto: 3118573661</li>
+                        <li>Dirección: Calle 152 #9-80</li>
+                    </ul>
+                </div>
+                <div class="pricing-table">
+                    <h2 class="pricing-table__header">Punto 2</h2>
+                    <h3 class="pricing-table__price">Juan Cárdenas</h3>
+                    <div style="border-radius: 15px;">
+                      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d994.1445545069736!2d-74.0473576073099!3d4.669032676866936!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9a89815ebb23%3A0x1d5256b69918d5d7!2sCra.%208%20%2387-49%2C%20Bogot%C3%A1!5e0!3m2!1ses!2sco!4v1600714600025!5m2!1ses!2sco" width="300" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                    </div>
+                    <ul class="pricing-table__list">
+                        <li>Contacto: 3166933623</li>
+                        <li>Dirección: Carrera 8 #87-49</li>
+                    </ul>
+                </div>
+                <div class="pricing-table">
+                    <h2 class="pricing-table__header">Punto 3</h2>
+                    <h3 class="pricing-table__price">Luis Roa</h3>
+                    <div style="border-radius: 15px;">
+                      <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3976.5752911841255!2d-74.11489!3d4.669549!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9b7857412bd1%3A0xf44340cd75b73b57!2zQ2wuIDI1ZyAjNzRiLTUwLCBGb250aWLDs24sIEJvZ290w6E!5e0!3m2!1ses!2sco!4v1600740267134!5m2!1ses!2sco" width="300" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                    </div>
+                    <ul class="pricing-table__list">
+                        <li>Contacto: 3506587379</li>
+                        <li>Dirección: Calle 25G #74B-50</li>
+                    </ul>
+                </div>
+                <div class="pricing-table">
+                    <h2 class="pricing-table__header">Punto 4</h2>
+                    <h3 class="pricing-table__price">Oscar Ramírez</h3>
+                    <div style="border-radius: 15px;">
+                      <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3976.936354967292!2d-74.055518!3d4.605418!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xba85b287719f0707!2sBas%C3%ADlica%20Santuario%20del%20Se%C3%B1or%20de%20Monserrate!5e0!3m2!1ses!2sco!4v1600740295811!5m2!1ses!2sco" width="300" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                    </div>
+                    <ul class="pricing-table__list">
+                        <li>Contacto: 3118288220</li>
+                        <li>Uniandes: of.ramirez10</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div style="display: flex;">
+            <table id="puntos1" class="ptTable">
+              <!--Tabla de puntos-->
+            </table>
+            <table id="puntos2" class="ptTable">
+              <!--Tabla de puntos-->
+            </table>
+            <table id="puntos3" class="ptTable">
+              <!--Tabla de puntos-->
+            </table>
+            <table id="puntos4" class="ptTable">
+              <!--Tabla de puntos-->
+            </table>
+        </div>
+        <script src="./data.js"></script>
+        <script>
+            window.console = window.console || function(t) {};
+            if (document.location.search.match(/type=embed/gi)) {
+              window.parent.postMessage("resize", "*");
+            }
+        </script>
+    <body>
+</html>
