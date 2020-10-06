@@ -11,17 +11,14 @@ let datos1 =[
     {Nombre:"JULIAN ANGULO DIAZ", Punto:"1"},
     {Nombre:"Laura Valentina Castaño Lozano", Punto:"1"},
     {Nombre:"Libardo A. González Moreno", Punto:"1"},
-    {Nombre:"Luis González", Punto:"1"},
     {Nombre:"Mario Lozano", Punto:"1"},
     {Nombre:"Miguel Caro", Punto:"1"},
     {Nombre:"Natalia Aguilar", Punto:"1"},
     {Nombre:"Natalia Gómez ", Punto:"1"},
-    {Nombre:"Oscar Felipe Ramírez Pardo", Punto:"1"},
     {Nombre:"Paula Tapia", Punto:"1"},
     {Nombre:"Paula Torres", Punto:"1"},
     {Nombre:"Ricardo Rodríguez Roldán", Punto:"1"},
     {Nombre:"Santiago Patiño Criado", Punto:"1"},
-    {Nombre:"Sara García", Punto:"1"},
     {Nombre:"Yennifer Alejo ", Punto:"1"},
     {Nombre:"Sebastian Sierra Alarcon ", Punto:"1"}];
 
@@ -32,7 +29,6 @@ let datos2=[
     {Nombre:"Javier Isaza De Larrañaga", Punto:"2"},
     {Nombre:"Johana Ortiz Romero", Punto:"2"},
     {Nombre:"Juan Camilo Fonseca", Punto:"2"},
-    {Nombre:"Juan Esteban Cárdenas", Punto:"2"},
     {Nombre:"Luis Torres", Punto:"2"},
     {Nombre:"Santiago Muñoz", Punto:"2"},
     {Nombre:"Nicolás Ramírez Aguilar", Punto:"2"}];
@@ -46,15 +42,15 @@ let datos3=[
     {Nombre:"David Alejandro González Rodríguez", Punto:"3"},
     {Nombre:"Juan Diego López", Punto:"3"},
     {Nombre:"Juan Triana", Punto:"3"},
-    {Nombre:"Julián Organista", Punto:"3"},
-    {Nombre:"Luis Roa", Punto:"3"}];
+    {Nombre:"Julián Organista", Punto:"3"}];
 
 let datos4=[
     {Nombre:"Andres Felipe Torres Ramos", Punto:"4"},
     {Nombre:"Carlos Peñuela", Punto:"4"},
     {Nombre:"Daniel Ramirez Toledo", Punto:"4"},
     {Nombre:"Jorge Fernando Victoria Trujillo", Punto:"4"},
-    {Nombre:"Lina María Montoya Salazar", Punto:"4"}];
+    {Nombre:"Lina María Montoya Salazar", Punto:"4"},
+    {Nombre:"Luis González", Punto:"4"}];
 
 function generateTableHead(table, data) {
     let thead = table.createTHead();
